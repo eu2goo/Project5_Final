@@ -38,6 +38,7 @@
 </head>
 <body>
 <h1>자유게시판</h1>
+<br/><button type="button" onclick="location.href='add'">새글쓰기</button>
 <table id="list" width="90%">
 <tr>
 	<th>Id</th>
@@ -51,7 +52,7 @@
 <c:forEach items="${list}" var="u">
 	<tr>
 		<td>${u.seq}</td>
-		<td>${u.title}</td>
+		<td onclick="location.href='view/${u.seq}'">${u.title}</td>
 		<td>${u.writer}</td>
 		<td>${u.content}</td>
 		<td>${u.regdate}</td>
@@ -60,6 +61,6 @@
 	</tr>
 </c:forEach>
 </table>
-<br/><button type="button" onclick="location.href='add'">새글쓰기</button>
+
 </body>
 </html>

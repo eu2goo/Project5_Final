@@ -13,7 +13,12 @@ public class BoardContoller {
 
     @Autowired
     BoardServiceImpl boardService;
-
+    @RequestMapping(value="/view/{id}",method = RequestMethod.GET)
+    public String viewPost(@PathVariable("id") int id, Model model){
+        BoardVO boardVO = boardService.getBoard(id);
+        model.addAttribute("u", boardVO);
+        return "view";
+    }
     @RequestMapping(value = "/posts",method= RequestMethod.GET)
     public String boardlist(Model model){
         model.addAttribute("list",boardService.getBoardList());
