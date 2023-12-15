@@ -4,5 +4,6 @@
 <configuration>
     <typeAliases>
         <typeAlias alias="diary" type="com.crud.bean.DiaryVO" />
+        <typeAlias alias="diaryUser" type="com.crud.bean.UserVO" />
     </typeAliases>
 </configuration>

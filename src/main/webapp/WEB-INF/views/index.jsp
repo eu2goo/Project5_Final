@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <script type="text/javascript" >
-    window.location.replace("posts")
+    window.location.replace("login")
 </script>
 <body>
 Project5_CRUD1
