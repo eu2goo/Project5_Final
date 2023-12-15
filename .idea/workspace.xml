@@ -10,14 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0acceb58-3769-4dfa-bdfc-55c8a8b785f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/bean/DiaryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/dao/DiaryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/diary/DiaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/diary/DiaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/diary/DiaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/board-mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7562afa8-aa9e-4b61-b54e-083214d42f01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7562afa8-aa9e-4b61-b54e-083214d42f01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/948395bb-2937-4849-aa64-12ce9ff552a6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/948395bb-2937-4849-aa64-12ce9ff552a6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7562afa8-aa9e-4b61-b54e-083214d42f01/storage_v2/_src_/schema/p232_22200296.-6xRNg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7562afa8-aa9e-4b61-b54e-083214d42f01/storage_v2/_src_/schema/p232_22200296.-6xRNg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/bean/BoardVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardContoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/board/BoardServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/dao/BoardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
       </list>
@@ -58,7 +74,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/eu2goo/Desktop/23-2/실전프로젝트1/Project5_CRUD/src/main/webapp/WEB-INF/views&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eu2goo/Desktop/23-2/실전프로젝트1/Project5_CRUD&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -99,7 +115,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="f1e2d3cc-9d0f-49a5-a116-c2a57108b9e6" />
+        <option name="BASE_DIRECTORY_NAME" value="f0230094-e87a-4b83-a06a-002fdf951f55" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -107,7 +123,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54096" />
+        <option name="DEBUG_PORT" value="58042" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -188,7 +204,10 @@
       <workItem from="1701407813547" duration="3317000" />
       <workItem from="1701411537012" duration="564000" />
       <workItem from="1701424951396" duration="14896000" />
-      <workItem from="1701519386934" duration="2252000" />
+      <workItem from="1701519386934" duration="2832000" />
+      <workItem from="1701739115100" duration="253000" />
+      <workItem from="1702359255071" duration="1313000" />
+      <workItem from="1702652646981" duration="5680000" />
     </task>
     <servers />
   </component>

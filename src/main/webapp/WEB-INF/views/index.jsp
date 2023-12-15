@@ -14,7 +14,7 @@
     window.location.replace("posts")
 </script>
 <body>
-Project5_CRUD
+Project5_CRUD1
 </br>
 
 </body>
